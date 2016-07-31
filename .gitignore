@@ -107,3 +107,5 @@ fabric.properties
 # modules.xml
 # .idea/misc.xml 
 # *.ipr
+.idea/
+app/images/
