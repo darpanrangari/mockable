@@ -7,10 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_app.min.css">
 
-<h1>test gulp node bower</h1>
+
+    <div id="script-container">
+        <!-- Angular Material requires Angular.js Libraries -->
+        <script src="js/main.js"></script>
+        <script src="js/all.js"></script>
+
+    </div>
+
+</head>
+<body ng-app="BlankApp" ng-cloak>
+<script type="text/javascript">
+/**
+* You must include the dependency on 'ngMaterial'
+*/
+angular.module('BlankApp', ['ngMaterial']);
+</script>
+
 
 </body>
 </html>
+
